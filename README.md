@@ -25,7 +25,8 @@ The application handles events, by listening for clicks on the dom we can add or
 * Modifiers for events can specify how the application listens for events, such as only allowing a user to double their age once
 * User interactions, the application takes a user input
 * Modifiers for user interactions can be chained, for example to enter a favorite quote, the user must click alt + enter, which is useful functionality if you were firing code off whenever a user filled a form field and clicked tab or something like that. Any type of event/function based on a specific user action.
-* Two way data binding updates the dom in real time, when you enter a nickname, you see it rendered right away 
+* Two way data binding updates the dom in real time, when you enter a nickname, you see it rendered right away
+* Adding computed properties allows you to rerun a specific method, more efficient than rerunning all methods, which we can see with the score updating when the rating is increased while the other inputs remain unchanged.
 
 ## Future Development
 
