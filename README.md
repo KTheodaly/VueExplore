@@ -12,7 +12,9 @@ This app uses a vue instance to render data and methods using Vue.js
 
 An instance holds data we can dynamically import to the dom with vue. js, the method is the greeting which also has access to the data, which makes it possible to render the name in the greeting function.
 
-I stayed this as a simple player profile. 
+Data binding allows a link to Linkedin to be displayed in the dom
+
+The application handles simple events, by listening for clicks on the dom we can add or subract
 
 ## Future development
 
