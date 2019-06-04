@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vue explore</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="vue-app">
+        <h1> {{ greet("day") }}</h1>
+        <h2> PLAYER PROFILE</h2>
+        <h2>{{ team }}</h2>
+
+        <p> Name : {{ name }}</p>
+        <label>Enter a nickname:</label>
+        <input type="text" v-model="nickname" />
+        <span> {{nickname}} </span>
+        
+
+        
+        <p> Age: {{ age }}</p>
+        <button v-on:click="subtract(1)"> Subtract a Year</button>
+        <button v-on:click="add(1)"> Add a Year</button>
+        <button @dblclick.once="add(age)">Double Click to Double it</button>
+        <p> Raised in: {{ hometown }}</p>
+        <p> Strengths: {{ skills }}</p>
+        <label> My Rating: </label>
+        <p>{{ rate }} </p>
+        <button v-on:click="rate++">Increase Rating</button>
+        <p> Games + Rating = {{score}} </p>
+        <label>Enter a favorite quote:</label><input type="text" v-model="quote" />
+
+        <span>{{ quote }}</span>
+
+        <h3>Check out more:</h3>
+        <h3><a v-bind:href="website">Linkedin</a></h3>
+        
+        
+        <p>totally unrelated responsive div with coordinates:</p>
+        <div id="canvas" v-on:mousemove="updateXY">{{ x }}, {{ y }}</div>
+        <p>That's all for</p> <input type="text" v-bind:value="name"/>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

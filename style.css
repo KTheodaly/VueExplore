@@ -1,0 +1,50 @@
+#vue-app {
+    text-align: left;
+    margin-left: 10%;
+    font-family: 'Exo 2', sans-serif;
+    width: 80%;
+    border: 4px solid rgb(13, 156, 192);
+    border-radius: 5px;
+    background-color: rgb(43, 187, 223);
+    color: azure;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+    padding: 10px;
+    
+}
+#canvas {
+    width: 60%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 65px;
+    text-align: center;
+    border: 2px solid rgb(13, 156, 192);
+}
+button {
+    border-radius: 12px;
+    background-color: rgb(13, 156, 192);
+    display: inline-block;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 15px 32px;
+    margin: 15px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+h1, h2, h3 {
+    text-align: center;
+}
+input {
+    border-radius: 5px;
+    margin: 15px;
+}
