@@ -19,12 +19,13 @@ The application handles events, by listening for clicks on the dom we can add or
 
 ## What did I learn
 
-This was helpful to see the syntax for calling data and methods in Vue.js
-Databinding
-For events, you can use v-on or @ as selectors
-Modifiers for events can specify how the application listens for events, such as only allowing a user to double their age once
-User interactions, the application takes a user input, the nickname.
-Modifiers for user interactions can be chained, for example to enter a favorite quote, the user must click alt + enter, which is useful functionality if you were firing code off whenever a user filled a form field and clicked tab or something like that. Any type of event/function based on a specific user action.
+* This was helpful to see the syntax for calling data and methods in Vue.js
+* Databinding
+* For events, you can use v-on or @ as selectors
+* Modifiers for events can specify how the application listens for events, such as only allowing a user to double their age once
+* User interactions, the application takes a user input
+* Modifiers for user interactions can be chained, for example to enter a favorite quote, the user must click alt + enter, which is useful functionality if you were firing code off whenever a user filled a form field and clicked tab or something like that. Any type of event/function based on a specific user action.
+* Two way data binding updates the dom in real time, when you enter a nickname, you see it rendered right away 
 
 ## Future Development
 
